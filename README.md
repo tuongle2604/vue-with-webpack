@@ -1,5 +1,7 @@
 # vue-with-webpack
 
+2048 Game build with vue and webpack
+
 ## Project setup
 ```
 npm install
