@@ -1,0 +1,40 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  background-color: theme('colors.black');
+  color: theme("colors.gray.500");
+  font-size: 62.5%;
+
+  @media (max-width: 768px) {
+    font-size: 50%;
+  }
+  @media (max-width: 400px) {
+    font-size: 37.5%;
+  }
+}
+
+body {
+  font-size: 1.6rem;
+  padding-top: 2rem;
+	height: 100vh;
+  @media (max-width: 768px) {
+    padding-top: 6rem;
+  }
+  @media (max-width: 480px) {
+    padding-top: 10rem;
+  }
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.disabled {
+  opacity: 0.6;
+  pointer-events: none;
+}
