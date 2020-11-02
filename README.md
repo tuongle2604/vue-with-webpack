@@ -2,7 +2,7 @@
 
 2048 Game build with vue and webpack
 
-
+Demo: http://45.76.162.36/realworld
 
 ## Project setup
 ```
