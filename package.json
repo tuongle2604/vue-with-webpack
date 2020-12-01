@@ -45,11 +45,13 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.11.0",
     "webpack-merge": "^4.2.2",
-    "webpack-mode": "^1.0.2"
+    "webpack-mode": "^1.0.2",
+    "workbox-webpack-plugin": "^5.1.4"
   },
   "dependencies": {
     "animejs": "^3.2.0",
     "babel-polyfill": "^6.26.0",
+    "copy-webpack-plugin": "^6.3.2",
     "core-js": "^3.6.5",
     "hammerjs": "^2.0.8",
     "lodash": "^4.17.15",
