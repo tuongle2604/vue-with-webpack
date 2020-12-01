@@ -52,10 +52,14 @@ module.exports = {
     new VueLoaderPlugin(),
     new HtmlWebpackPlugin({ template: "./public/index.html" }),
     new CopyWebpackPlugin({
-      patterns: [
-        // { from: "src/sw.js" },
-        { from: "src/manifest.json" }
-      ]
+      patterns: [{
+        from: "public",
+        globOptions: {
+            ignore: [
+              '**/index.html'
+            ]
+        }
+      }]
     })
   ]
 };
