@@ -1,25 +1,30 @@
-# vue-with-webpack
+# 2048 Game
 
-2048 Game build with vue and webpack
+2048 Game build with vue and webpack.
+You can view a live demo at [https://tuongle.xyz/2048/](https://tuongle.xyz/2048/)
 
-Demo: http://45.76.162.36/realworld
+![Image of Yaktocat](https://tuongle.xyz/2048-small.jpg);
 
 ## Project setup
+
 ```
 npm install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
 npm run dev
 ```
 
 ### Compiles and minifies for production
+
 ```
 npm run build
 ```
 
 ### Lints and fixes files
+
 ```
 npm run lint:fix
 ```
