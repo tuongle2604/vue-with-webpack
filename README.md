@@ -1,6 +1,7 @@
 # 2048 Game
 
-2048 Game dark theme build with Vuejs, Tailwind and Webpack.\
+2048 Game dark theme build with Vuejs, Tailwind and Webpack.
+
 You can view a live demo at [https://tuongle.xyz/2048/](https://tuongle.xyz/2048/).
 
 ![2048 game image](https://tuongle.xyz/2048-small.jpg);
